@@ -1,5 +1,8 @@
 const express = require("express");
 const app = express();
+app.use(express.json());
+const userRoute = require("./routes/userRoute");
+app.use('/api/users/', userRoute);
 const port = 5000;
 const mongoose = require('mongoose');
 require('dotenv').config();
