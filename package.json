@@ -111,6 +111,7 @@
     "mimic-response": "^1.0.1",
     "minimatch": "^3.1.2",
     "minimist": "^1.2.6",
+    "moment": "^2.29.3",
     "mongodb": "^4.7.0",
     "mongodb-connection-string-url": "^2.5.2",
     "mongoose": "^6.4.0",
